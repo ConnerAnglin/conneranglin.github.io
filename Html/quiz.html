@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head> 
+    <meta charset="UTF-8">
+    <title>
+        My dogs Website
+    </title>
+    <meta name="description" content="Conner's 3 dogs"> 
+    <meta name="author" content="Conner Anglin"> 
+    <link href="../css/rule1css.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="wrapper">
+    <h2 class="font">Links Between my Pages</h2>
+    <div class="mynav"> 
+    <div class="box1"><a href="../index.html"> Home Page</a></div>
+    <div class="box2"><a href="tables.html">Tabels Page</a></div>
+    <div class="box3"><a href="links.html">Links Page</a></div>
+</div>
+</div>
+<h1>Quiz of My Dogs</h1>
+<hr> 
+
+<h3>  What kind of dog is Bently? </h3>
+		<form action="action.html"> 
+			<p>Please select the kind of dog Bently is:
+				<br>
+				<input type="radio" name="breed" value="Cavalier King Charles Spaniel" checked="checked">Cavalier King Charles Spaniel
+				<input type="radio" name="breed" value="Lab">Lab
+				<input type="radio" name="breed" value="Pitbull">Pitbull
+			</p>
+	 	</form>
+		
+		<hr>
+		
+    <h3> What is Bently's favorite activity? </h3>
+		<form action="action.html"> 
+			<p>Please select Bently's favorite activity:
+			<br>
+			<input type="checkbox" name="activity" value="Car Rides" checked="checked"> Car Rides
+			 <input type="checkbox" name="activity" value="Playing Outsuide">  Playing Outside
+			<input type="checkbox" name="activity" value="Meeting New People"> Meeting New People
+         </p>
+		</form>	
+		
+        <hr>
+		
+		<h3> Please fill in the box with your own list. </h3>
+		<form action="action.html"> 
+			<fieldset>
+			<legend> What are Bentlys best features?></legend>
+			<textarea name="comments" cols="40" rows="4">Enter your list here...</textarea>
+			</fieldset>
+		</form>
+	
+        <hr>
+		
+        <h3> Please select what anwser fits best. </h3>	
+		<form  action="action.html"> 
+			 <p>How old do you think Bently is?</p> 
+			 <select name="age">
+				<option value="2">2</option> 
+				<option value="5">5</option>
+				<option value="1.5">1.5</option>
+                <option value="4">4</option>
+  			</select>
+		</form>	
+		
+        <hr>
+        <h3> Please upload your favorite picture of Bently </h3>	
+		<form action="action.html" method="post">
+			<p>Upload your picture in pdf:</p>
+			<input type="file" name="user-song">
+			<br> 
+			<input type="submit" value="Upload" name="upload">
+		</form>
+		
+		<hr>
+		<input id="submit" type="submit" >
+    </body>
+    </html>

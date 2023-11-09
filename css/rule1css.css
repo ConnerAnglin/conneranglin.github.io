@@ -1,0 +1,152 @@
+@font-face {
+    font-family:myfirstfont ;
+    src:url(../Fonts/PlastoTrial-Regular.otf);
+    font-family: mainfont;
+    src:url(../Fonts/Sunday\ Donuts.otf)
+}
+.font{
+    font-family: myfirstfont;
+}
+img.align-center {
+    display: block;
+    margin: 0px auto;}
+img.medium {
+    width: 310px;
+    height: 552px;}
+img#Bailey {
+    width: 480px;
+    height: 360px;
+}
+img.dogphoto {
+    width: 360px;
+    height: 480px;
+}
+body{
+    font-family: mainfont;
+    background-image: url("../images/paw-print-220231_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    
+}
+#important1{
+    border: 10px;
+    padding: 20px;
+    border: 30px solid;
+    border-image:repeating-linear-gradient(35deg, rgba(209, 138, 44) ,rgb(247, 161, 1),#fc0202e3 30px) 60;
+    font-size: 400%;
+    text-align: center
+    ;
+}
+.font{
+color: white;
+}
+li>a{
+    color: white;
+}
+.wrapper{
+    border-style: dotted;
+    height: 100px;
+    width:max-content;
+    background-color: rgb(206, 136, 44);
+    border-width: 10px;
+    border-color: rgb(247, 161, 1);
+    padding: 50px;}
+.mynav{
+    display: flex;
+}
+.box1{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 1;
+}
+.box3{
+    flex-grow: 1;
+}
+.wrapper{
+    position: sticky;
+    top: 0px;
+left: 0px;
+padding: 10px;
+margin: 0px;
+width: 100%;}
+input#submit {
+    color: #910b0b;
+    border: 1px solid #e8f800;
+    border-top: 2px solid #f50404;
+    background-color: #e9a848;}
+input#submit:hover {
+    color: #dad044;
+    border: 1px solid #f80000;
+    border-top: 2px solid #800303;
+    background-color: #361d01;}
+input[type="radio"]:checked {
+        box-shadow: 0 0 0 3px orange;
+        color: #361d01;
+    }
+textarea{
+    background-color: #e9a848;
+    color: #361d01;
+    border: dashed;
+    border-color: #800303;
+}
+@media screen and (max-width: 800px){
+    .media{
+        color: green;
+        background-color: black;
+        border: green;
+        border-style: solid;
+        font-weight: 300;
+    }
+}
+@media screen and (min-width: 800px) {
+    .media{
+        color: purple;
+        background-color: pink;
+        border: purple;
+        border-style: solid;
+        font-weight: 300;
+    }
+    
+}
+.doghouses{
+    padding: 3rem
+}
+.doghouses > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    list-style-type: none;
+}
+.doghouses > ul > li {
+    border: 1px solid #361d01;
+    border-radius: 1rem;
+}
+.doghouses > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position:relative;
+  }
+  .doghouses > ul > li > figure > img {
+    width: 100%;
+  }
+  .doghouses > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 123, 0, 0.7);
+    width: 100%;
+  }
+  .doghouses > ul > li > figure > figcaption > h4 {
+    color:black;
+    padding: .75rem;
+    font-size: 1.25rem;
+}
+.doggie{
+    border: 20px red;
+    border-style: solid;
+    background-color: #361d01;
+}
