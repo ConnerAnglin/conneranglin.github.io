@@ -1,0 +1,163 @@
+@font-face {
+    font-family:myfirstfont ;
+    src:url(../Fonts/Chapaza.ttf);
+}
+@font-face {
+    font-family:Headerfont ;
+    src:url(../Fonts/LEMONMILK.otf);
+}
+body{
+    font-family:myfirstfont;
+background-color: black;
+font-size: xx-large;
+color: white;
+}
+h2{
+    font-family: Headerfont;
+    font-size: xx-large;
+}
+.Logo{
+width: 100%;
+height: auto;
+padding-top: 1%;
+}
+.wrapper{
+    border-style: solid;
+    border-width: 10px;
+    background-color: #808080;
+    border-color: rgb(139, 47, 116);
+    padding: 20%;
+display:flex;
+}
+.image1{
+    flex: 1;
+}
+.nav{
+display: flex;
+flex: 3;
+padding: 6%;
+padding-left: 10%;
+color: black;
+font-size: x-large;
+}
+.box1{
+    flex-grow: 1;
+    color: white;
+}
+.box2{
+    flex-grow: 1;
+    color:white;
+}
+.box3{
+    flex-grow: 1;
+    color:white;
+}
+.wrapper{
+    position:relative;
+    top: 0px;
+left: 10%;
+padding: 10px;
+margin-bottom:7%;
+width: 80%;}
+.section1{
+    float: right;
+}
+.Weldexamp{
+    padding: 3rem;
+}
+.Weldexamp > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    list-style-type: none;}
+.Weldexamp > ul > li {
+    border: 5px solid purple;
+    border-radius: 1rem;
+    background-color: gray;
+}
+.Weldexamp > ul > li > figure {
+    max-height: 100%;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position:relative;
+  }
+  .Weldexamp > ul > li > figure > img {
+    width: 100%;
+  }
+  .Weldexamp > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 254, 254, 0.7);
+    width: 100%;
+  }
+  .Weldexamp > ul > li > figure > figcaption > h4 {
+    color:purple;
+    padding: .75rem;
+    font-size: 1.25rem;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    padding-bottom: 5%;
+}
+.thephoto{ 
+    height:auto ;
+    width: 65%;
+    border: 5px;
+    border-style: solid;
+    border-color: purple;
+    margin-left: 15%;
+}
+.products{
+    text-align: center;
+}
+.homep1{
+    padding-right: 10%;
+}
+.Welds{
+    padding: 3rem;
+}
+.Welds > ul {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    list-style-type: none;}
+.Welds > ul > li {
+    border: 5px solid purple;
+    border-radius: 1rem;
+    background-color: gray;
+}
+.Welds > ul > li > figure {
+    max-height: 100%;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position:relative;
+  }
+  .Welds > ul > li > figure > img {
+    width: 100%;
+  }
+  .Welds > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 254, 254, 0.7);
+    width: 100%;
+  }
+  .Welds > ul > li > figure > figcaption > h4 {
+    color:purple;
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+.About{
+    text-align: center;
+}
+.maps{
+    text-align: center;
+}
+.numbers:hover{
+color: purple;
+}
